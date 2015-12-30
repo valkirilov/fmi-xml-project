@@ -1,0 +1,22 @@
+{
+  "name": "catalog",
+  "homepage": "https://github.com/valkirilov/fmi-xml-project",
+  "authors": [
+    "Valentin Kirilov <val.kirilov@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

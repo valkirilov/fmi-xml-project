@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jokes>
+	<joke author="Георги Георгиев" id="3e933a84efbac440e3e39b07f1f74902">Бисер 3</joke>
+	<joke id="3e933a84efbac440e3e39b07f1f74903" author="Неизвестен Автор">Бисер 2</joke>
+	<joke author="Автор" id="a51f5a98e245d4772028c428bc3b4fc4">Бисер 1</joke>
+</jokes>
