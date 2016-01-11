@@ -3,3 +3,4 @@
 .env.php
 .env
 catalog/vendor
+catalog/public/bower_components

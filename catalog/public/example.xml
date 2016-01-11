@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.fmi-jokes.com/jokes.xsl"?>
 <jokes>
 	<joke author="Георги Георгиев" id="3e933a84efbac440e3e39b07f1f74902">Бисер 3</joke>
 	<joke id="3e933a84efbac440e3e39b07f1f74903" author="Неизвестен Автор">Бисер 2</joke>
 	<joke author="Автор" id="a51f5a98e245d4772028c428bc3b4fc4">Бисер 1</joke>
-</jokes>
+<joke id="aef834645b1d3e36b816bb149501d2f2" author="Автор на бисера" date="Лекция" lecture="Дата" occasion="Повод" quotes="Цитира" context="Контекст" lesson="Поука" rating="Рейтинг">Съдържание на бисера</joke></jokes>

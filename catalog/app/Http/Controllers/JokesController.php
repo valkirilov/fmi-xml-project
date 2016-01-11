@@ -90,6 +90,11 @@ class JokesController extends Controller {
       'author' => $request->input('author'),
       'date' => $request->input('lecture'),
       'lecture' => $request->input('date'),
+      'occasion' => $request->input('occasion'),
+      'quotes' => $request->input('quotes'),
+      'context' => $request->input('context'),
+      'lesson' => $request->input('lesson'),
+      'rating' => $request->input('rating'),
     );
 
     return $data;
@@ -103,6 +108,27 @@ class JokesController extends Controller {
 
     $author = $this->createAttribute('author', $data['author']);
     $joke->appendChild($author);
+
+    $date = $this->createAttribute('date', $data['date']);
+    $joke->appendChild($date);
+
+    $lecture = $this->createAttribute('lecture', $data['lecture']);
+    $joke->appendChild($lecture);
+
+    $occasion = $this->createAttribute('occasion', $data['occasion']);
+    $joke->appendChild($occasion);
+
+    $quotes = $this->createAttribute('quotes', $data['quotes']);
+    $joke->appendChild($quotes);
+
+    $context = $this->createAttribute('context', $data['context']);
+    $joke->appendChild($context);
+
+    $lesson = $this->createAttribute('lesson', $data['lesson']);
+    $joke->appendChild($lesson);
+
+    $rating = $this->createAttribute('rating', $data['rating']);
+    $joke->appendChild($rating);  
 
     return $joke;
   }

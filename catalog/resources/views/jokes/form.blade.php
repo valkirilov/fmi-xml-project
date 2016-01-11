@@ -27,7 +27,32 @@
 		    <label for="input-date">Дата</label>
 		    <input type="text" name="date" class="form-control" id="input-date" placeholder="Дата" value="{{ isset($joke) && isset($joke['date']) ? $joke['date'] : '' }}">
 		  </div>
-		  
+
+		  <div class="form-group">
+		    <label for="input-occasion">Повод</label>
+		    <input type="text" name="occasion" class="form-control" id="input-occasion" placeholder="Повод" value="{{ isset($joke) && isset($joke['occasion']) ? $joke['occasion'] : '' }}">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-quotes">Цитира</label>
+		    <input type="text" name="quotes" class="form-control" id="input-quotes" placeholder="Цитира" value="{{ isset($joke) && isset($joke['quotes']) ? $joke['quotes'] : '' }}">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-context">Контекст</label>
+		    <input type="text" name="context" class="form-control" id="input-context" placeholder="Контекст" value="{{ isset($joke) && isset($joke['context']) ? $joke['context'] : '' }}">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-lesson">Поука</label>
+		    <input type="text" name="lesson" class="form-control" id="input-lesson" placeholder="Поука" value="{{ isset($joke) && isset($joke['lesson']) ? $joke['lesson'] : '' }}">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="input-rating">Рейтинг</label>
+		    <input type="text" name="rating" class="form-control" id="input-rating" placeholder="Рейтинг" value="{{ isset($joke) && isset($joke['rating']) ? $joke['rating'] : '' }}">
+		  </div>
+
 		  <button type="submit" class="btn btn-default">Запази</button>
 		</form>
 
